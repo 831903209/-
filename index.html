@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ToDoList</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<script type="text/javascript" src="index.js">
+	</script>
+	
+	<body>
+		
+		<header>
+			<section>
+				<form action="javascript:postaction()" id="form">
+					<label for="title">ToDoList</label>
+					<input type="text" id="title" name="title" placeholder="添加新的ToDo">
+					<a href="javascript:clear();">清空</a>
+				</form>
+			</section>
+		</header>
+		<section>
+			<div>
+				<h2 onclick="save()">正在进行 
+					<span id="todocount"></span>
+				</h2>
+				<ol id="todolist" class="demo-box">
+				</ol>
+			</div>
+			<div>
+				<h2>已经完成 
+					<span id="donecount"></span>
+				</h2>
+				<ul id="donelist">
+				</ul>
+			</div>
+		</section>
+		
+	</body>
+</html>
