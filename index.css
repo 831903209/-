@@ -1,0 +1,145 @@
+body 
+{
+    margin:0;
+    padding:0;
+    font-size:24px;
+    background:#d4d3ff;
+}
+header 
+{
+    height:80px;
+    background:#938ff1;;
+}
+section
+{
+    margin:0 80px;
+}
+label
+{
+    float:left;
+    width:100px;
+    line-height:80px;
+    color:white;
+    font-size:50px;
+    cursor:pointer;
+}
+header input
+{
+    float:left;
+    width:850px;
+    height:50px;
+    margin-top:15px;
+    margin-left: 250px;
+    text-indent:13px;
+    border-radius:5px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+    border:none;
+    font-size: 18px;
+}
+form a
+{
+    float: right;
+    line-height:80px;
+    margin-right: 100px;
+    font-size:50px;
+    text-align:center;
+    font-weight: bold;
+    color:white;
+    text-decoration:none;
+}
+div
+{
+    margin: 20px 0;
+    padding: 0 10px;
+    border:1px solid rgb(122, 113, 113);
+    border-radius:20px;
+}
+h2
+{
+    position:relative;
+    font-size: 27px;
+}
+span
+{
+    position:absolute;
+    top:2px;
+    right:5px;
+    display:inline-block;
+    padding:0 5px;
+    height:20px;
+    border-radius:20px;
+    background:#e3e3fd;
+    line-height:22px;
+    text-align:center;
+    color:gray;
+    font-size:14px;
+}
+ol,ul
+{
+    padding:0;
+    list-style:none;
+}
+li input
+{
+    position:absolute;
+    top:2px;
+    left:10px;
+    width:22px;
+    height:22px;
+    cursor:pointer;
+}
+p
+{
+    margin: 0;
+}
+li p input
+{
+    top:3px;
+    left:40px;
+    width:70%;
+    height:20px;
+    line-height:14px;
+    text-indent:5px;
+    font-size:14px;
+}
+li
+{
+    height:40px;
+    margin:0 50px;
+    width: 1200px;
+    line-height:32px;
+    background:white;
+    position:relative;
+    margin-bottom: 15px;
+    padding:0 45px;
+    border-radius:9px;
+    border-left: 5px solid #8f629c;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+ol li
+{
+    cursor:move;
+}
+ul li
+{
+    border-left: 5px solid #999;
+    opacity: 0.5;
+}
+li a
+{
+    position:absolute;
+    top:2px;
+    right:5px;
+    display:inline-block;
+    width:14px;
+    height:12px;
+    border-radius:14px;
+    border:6px double #FFF;
+    background:#CCC;
+    line-height:14px;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+    font-size:14px;
+    cursor:pointer;
+}
